@@ -4,6 +4,9 @@ You need the following packages on your system:
 sudo apt update
 sudo apt install -y build-essential git cmake pkg-config
 
+Download age_deploy.caffemodel: https://drive.google.com/file/d/1pNDFo7WBcf4fo5DefGEbM01TJP8_z5H5/view
+Download gender_deploy.caffemodel:https://drive.google.com/file/d/1X8_2hTEUGculDA9gt_pIyTV31CNew8_b/view
+
 ## 📁 Project Structure
 
 Face-Recognition-Jetson-Nano/
