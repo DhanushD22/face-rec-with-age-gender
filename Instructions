@@ -16,6 +16,7 @@ Face-Recognition-Jetson-Nano/
 │   ├── retina/
 │   ├── mobilefacenet/
 │   └── live/
+|   └── age_gender/
 ├── src/                  # C++ source files
 ├── FaceRecognition.cbp   # Code::Blocks project (optional)
 └── README.md
@@ -81,10 +82,15 @@ models/
 │   ├── mobilefacenet.param
 │   └── mobilefacenet.bin
 └── live/
-    ├── model_1.param
-    ├── model_1.bin
-    ├── model_2.param
-    └── model_2.bin
+|   ├── model_1.param
+|   ├── model_1.bin
+|   ├── model_2.param
+|   └── model_2.bin
+└── age_gender/
+    ├── age_deploy.prototxt
+    ├── age_net.caffemodel
+    ├── gender_deploy.prototxt
+    └── gender_net.caffemodel
 
 Tip: You must have the models/ directory inside the same folder where you run the binary (build/).
 
